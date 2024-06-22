@@ -1,0 +1,50 @@
+div,
+body,
+p,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
+/* 헤더 */
+.header {
+  padding: 20px;
+
+  background-color: #5d94f3;
+  min-height: 100px;
+}
+.header h2 {
+  font-size: 30px;
+  color: #fff;
+
+  margin-top: 10px;
+}
+.header .header-list {
+  margin-top: 20px;
+  padding: 0;
+  display: flex;
+}
+.header .header-list li {
+  padding: 0 10px;
+}
+.header .header-list li a {
+  color: #fff;
+  transition: 0.5s;
+}
+.header .header-list li a:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
